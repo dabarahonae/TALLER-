@@ -1,0 +1,31 @@
+.caja{
+    width: 400px;
+    padding: 50px;
+    background-color: gray;
+    text-align: center;
+    margin: 50px auto;
+}
+@media(max-width: 700px){
+    .caja{
+        width: 100%;
+        background-color: red;
+       
+    }
+}
+@media(max-width: 500px){
+    .caja{
+        width: 100%;
+        background-color: green;
+        font-family: Arial;
+    }
+
+}
+@media(max-width: 300px){
+    .caja{
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-family: Verdana;
+    }
+
+}

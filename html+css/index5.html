@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<body>
+    <div>
+        <h1 class="bg-primary  " >
+            Hola mundo
+        </h1>
+    </div>
+    <div class="m-60px text-center ">
+    <div class="fs-4 border border-primary ">
+        Aqui va un parrafo
+    </div>
+     <div class="fs-4 border border-danger ">
+        parrafo 2
+    </div>
+     <div class="fs-4 border border-success text-lowercase ">
+        parrafo 3
+    </div>
+     <div class="fs-4 border border-warning">
+        parrafo 4
+    </div>
+    </div>
+       <div >
+        <h1>probando los containers</h1>
+    </div>
+       <div class="bg-success container-fluid">
+        <h1> fluid</h1>
+    </div>
+    <div class="bg-primary container">
+        <h1> breakpoint</h1>
+    </div>
+    <div class="bg-danger container-sm">
+        <h1> container-sm</h1>
+    </div>
+     <div class="bg-warning container-md">
+        <h1> container-md</h1>
+    </div>
+      <div class="bg-dark container-lg text-white">
+        <h1> container-lg</h1>
+    </div>
+      <div class="bg-secondary container-xl">
+        <h1> container-xl</h1>
+    </div>
+       <div class="bg-info container-xxl">
+        <h1> container-xxl</h1>
+    </div>
+    <br>
+    <h1>
+        Grids, filas y columnas
+    </h1>
+    <div class="container row">
+        <div class="col ">
+            <div class="card">
+             <div class="card-body bg-success">
+                
+                <div class="col  ">
+                    <h3 class="card-title">Card 1</h3>
+                     <div class="container row">
+                    <img src="img/pucesi_logo.jpg" width="90px" height="90px">
+                 </div>
+                    <p class="card-text">
+                        El dia esta lluvioso</p>
+                    <button class="btn btn-primary">
+                        Ver tarjeta
+                    </button>
+
+                
+                 </div>
+            </div>
+        </div>
+        </div>
+        <div class="col ">
+            <div class="card">
+                <div class="card-body">
+                  
+                    <h3 class="card-title">Card 2</h3>
+                      <div class="container row">
+                    <img src="img/images.jpg" width="90px" height="100px">
+                 </div>
+                    <p class="card-text">
+                        El dia esta lluvioso</p>
+                    <button class="btn btn-primary">
+                        Ver tarjeta
+                    </button>
+            </div>
+        </div>
+        </div>
+
+        <div class="col ">
+            <div class="card">
+            <div class="card-body">
+                    <h3 class="card-title">Card 3</h3>
+                     <div class="container row">
+                    <img src="img/pucesi_logo.jpg" width="90px" height="90px">
+                 </div>
+                    <p class="card-text">
+                        El dia esta lluvioso</p>
+                    <button class="btn btn-primary">
+                        Ver tarjeta
+                    </button>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container row">
+        <div class="col ">
+            <div class="card">
+             <div class="card-body">
+                    <h3 class="card-title">Card 4</h3>
+                     <div class="container row">
+                    <img src="img/pucesi_logo.jpg" width="90px" height="90px">
+                 </div>
+                    <p class="card-text">
+                        El dia esta lluvioso</p>
+                    <button class="btn btn-primary">
+                        Ver tarjeta
+                    </button>
+            </div>
+        </div>
+        </div>
+        <div class="col ">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Card 5</h3>
+                     <div class="container row">
+                    <img src="img/pucesi_logo.jpg" width="90px" height="90px">
+                 </div>
+                    <p class="card-text">
+                        El dia esta lluvioso</p>
+                    <button class="btn btn-primary">
+                        Ver tarjeta
+                    </button>
+            </div>
+        </div>
+        </div>
+        
+        <div class="col ">
+            <div class="card">
+            <div class="card-body bg-success">
+                    <h3 class="card-title">Card 6</h3>
+                     <div class="container row">
+                    <img src="img/pucesi_logo.jpg" width="90px" height="90px">
+                    
+                 </div>
+                    <p class="card-text">
+                        El dia esta lluvioso</p>
+                    <button class="btn btn-primary">
+                        Ver tarjeta
+                    </button>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <h3>Imputs and forms</h3>
+    <div class="col-8 bg-success">
+        <h2>Forms</h2>
+        
+        <form action="#" method="post" class="needs-validation" novalidate>
+            <!-- Nombre -->
+            <div class="mb-3">
+                <label for="nombre" class="form-label fw-semibold">Nombre:</label>
+                <input type="text" id="nombre" class="form-control" required placeholder="Ingrese su nombre">
+            </div>
+
+            <!-- Cédula -->
+            <div class="mb-3">
+                <label for="cedula" class="form-label fw-semibold">Cédula:</label>
+                <input type="text" id="cedula" class="form-control" required placeholder="Ingrese su cédula" maxlength="10" pattern="[0-9]{10}" title="Debe contener exactamente 10 dígitos numéricos">
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+                <label for="password" class="form-label fw-semibold">Password:</label>
+                <input type="password" id="password" class="form-control" required placeholder="••••••••">
+            </div>
+              <!-- Mails -->
+            <div class="mb-3">
+                <label for="mail" class="form-label fw-semibold">Correo Electrónico:</label>
+                <input type="mail" id="mail" class="form-control" required placeholder="Ingrese su correo electrónico" pattern=".+@tuempresa\.com" required title="Debe ser un correo electrónico válido de la empresa ">
+            </div>
+
+           
+            <div class="mb-3">
+                <label class="form-label fw-semibold d-block">Sexo:</label>
+                <div class="d-flex gap-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sexo" id="femenino" value="femenino" required>
+                        <label class="form-check-label" for="femenino">Femenino</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sexo" id="masculino" value="masculino">
+                        <label class="form-check-label" for="masculino">Masculino</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sexo" id="otro" value="otro">
+                        <label class="form-check-label" for="otro">Otro</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carrera de la U -->
+            <div class="mb-4">
+                <label for="carrera" class="form-label fw-semibold">Carrera de la U:</label>
+                <select id="carrera" name="carrera" class="form-select">
+                    <option value="v1">Software</option>
+                    <option value="v2">TI</option>
+                    <option value="v3">Datos</option>
+                </select>
+            </div>
+
+            <!-- Botón de Envío -->
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success btn-lg shadow-sm">Enviar info</button>
+            </div>
+            <div class="mt-3">
+                <label>
+                    Ingresa la fecha
+                    <input type ="date" >
+                </label>
+            </div>
+        </form>
+    </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ecef;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+header {
+    background-color: #4a5568; 
+    border: 2px solid #2d3748;
+    border-radius: 12px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid #ffffff;
+    padding: 5px 15px;
+    border-radius: 6px;
+}
+
+.enlaces {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header nav a {
+    background-color: #0055ff56;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 9999px; 
+    padding: 10px 20px; 
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 14px rgba(0, 85, 255, 0.35);
+    transition: all 0.25s ease;
+}
+
+header nav a:hover {
+    background-color: #0041cc88;
+    box-shadow: 0 6px 20px rgba(0, 85, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.hero h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.seccion-caja {
+    background-color: #ffffff;
+    border: 2px solid #cbd5e0;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.seccion-caja h2 {
+    color: #2d3748;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+
+.contenedor-cajas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.caja-tarjeta {
+    background-color: #f8fafc;
+    border: 2px solid #0055ff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    flex: 1;
+    min-width: 140px;
+    box-shadow: 0 4px 10px rgba(0, 85, 255, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.caja-tarjeta:hover {
+    transform: translateY(-3px);
+}
+
+.caja-tarjeta h3 {
+    color: #1a202c;
+    font-size: 1.1rem;
+}
+
+
+footer {
+    background-color: #2d3748;
+    color: #ffffff;
+    border: 2px solid #1a202c;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}

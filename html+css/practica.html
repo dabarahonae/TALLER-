@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container row g-3">
+        <h3 class="bg-secondary">Datos generales</h3>
+        <div class="col md-6" >
+    <fieldset>
+        <legend>Ciudades</legend>
+          
+            <input list="ciudades" name="ciudad" placeholder="Elige una ciudad">
+            <datalist id="ciudades">
+                <option value="Quito">
+                <option value="Guayaquil">
+                <option value="Cuenca">
+                <option value="Santo Domingo">
+                <option value="Ibarra">
+    </fieldset>
+    </div>
+   
+    <div class="col md-6">
+    <fieldset>
+        <legend>
+
+            Ingresa el semestre que cursas:</legend>
+            <select name="semestre" placeholder="Elige un semestre">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        
+    </fieldset>
+    </div>
+     <fieldset>
+    
+        <div class="container row g-3">
+        <h3 class="bg-primary">Servicios</h3>
+        <div class="col md-6" >
+            <legend>Calificación general</legend>
+            <input type="range" name="calificacion" min="0" max="10" step="1">
+            <output name="valor" for="calificacion"></output>
+        </div>
+         <div class="container row g-3">
+            <legend>Calificación general</legend>
+         </div>
+      
+    </fieldset>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+body {
+    display: grid;
+    grid-template-columns: 300px 80%; 
+    grid-template-rows: 80px 1fr 65px;
+    min-height: 100vh;
+    margin: 0;
+    border: 10px solid gray;
+}
+#header {
+    grid-column: 2;
+    grid-row: 100%;
+    background-color: red;
+}
+
+#main {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#footer {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: blue;
+}
